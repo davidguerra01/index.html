@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Botón personalizado */
+.btn-primary {
+  background-color: #0a77bb;
+  border-color: #050a7a;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2099d6;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(130, 155, 230, 0.2);
+}
+
+/* Card con efecto hover */
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 576px) {
+  .btn-primary {
+    background-color: #f94d27;
+    border-color: #ff5733;
+  }
+}
